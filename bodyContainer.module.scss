@@ -1,0 +1,222 @@
+.body-container{
+    background: #fff;
+    width: 100%;
+    margin-left: 16px;
+    border-radius: 8px;
+}
+
+.wrap-left-section{
+    padding:20px 20px 0px 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    border-bottom: 1px solid #DADCE0;
+
+}
+
+.heading{
+color:  #1C4980;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 140%; 
+padding-right: 20px;
+height: 36px;
+border-right: 1px solid #DADCE0;
+}
+
+.wrap-vertical-line{
+    left: 332px;
+    top: 24px;
+    padding: 0px 20px 0px 20px;
+    position: absolute;
+}
+
+    .vertical-line {
+        stroke-width: 1px;
+        width: 1px;
+        height: 38px;
+        background-color: #DADCE0;
+      }
+
+
+.wrap-tabs{
+  padding-left: 20px;
+  :global(:where(.css-dev-only-do-not-override-fpg3f5).ant-tabs .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn){
+    color:  #0073E6 !important;
+    font-weight: 600;
+    padding-bottom: 10px;
+    font-size: 14px;
+  }
+  :global(:where(.css-dev-only-do-not-override-fpg3f5).ant-tabs .ant-tabs-ink-bar){
+    background:  #0073E6 !important;
+  }
+}
+
+.assessment-overview{
+    color:  #1C4980;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 140%;
+padding: 20px 0px 16px 0px;
+}
+
+.mid-section{
+    padding: 0px 20px 20px;
+}
+
+.total-assessment{
+@extend .assessment-overview;
+font-size: 14px;
+font-weight: 600;
+
+}
+
+.wrap-mid-section-one{
+    border-radius: 12px;
+    display: flex;
+    border: 1px solid #DADCE0;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.purple{
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    background:  #EBE8FD;
+}
+
+.wrap-agenda{
+    display: flex;
+    align-items: center;
+}
+
+.total-assessment-value{
+    @extend .total-assessment;
+    font-size: 20px;
+    padding: 0px 0px 0px 10px;
+    font-weight: 700;
+}
+
+.wrap-assess{
+    width: 10%;
+    border-right: 1px solid #DADCE0;
+    padding: 16px 20px;
+}
+
+.wrap-candidates{
+    @extend .wrap-assess;
+    width: 26%;
+}
+
+.increments{
+    @extend .total-assessment;
+    font-size: 12px;
+    font-weight: 500;
+    color:#05C165;
+    padding: 6px 0px 0px 10px;
+}
+.total-candidates{
+    @extend .assessment-overview;
+    color: #1C4980;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 0px;
+}
+
+.wrap-candidates-source{
+    @extend .wrap-assess;
+    width: 38%;
+}
+
+.wrap-purpose{
+    @extend .wrap-assess;
+    border-right: unset;
+}
+
+.values{
+    @extend .total-assessment-value;
+    padding: 0px;
+}
+
+.mid-section-divTwo{
+    padding: 24px 0px 0px ;
+}
+
+.my-assessment{
+@extend .assessment-overview;
+font-size: 18px;
+font-weight: 500;
+}
+
+.assessment-container{
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+}
+
+.add-assessment{
+    border-radius: 12px;
+    border: 1px dashed #DADCE0;
+    background:  #F6F8FA;
+    padding: 43px;
+    width: 26%;
+}
+
+.add-assess-main-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.add-btn-background{
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 8px;
+}
+
+.add-icon{
+    height: 40px;
+    width: 50px;
+    margin-top: 7px;
+}
+
+.new-assesment{
+    @extend .assessment-overview;
+    padding: 10px 0px 12px 0px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.adding-desc{
+    @extend .assessment-overview;
+    font-size: 12px;
+    padding: unset;
+    text-align: center;
+  
+}
+
+.mobile-view{
+    position: absolute;
+    top: 28px;
+    right: 20px;
+    z-index: 0;
+    
+}
+
+.my-assessment-header{
+    color:  #0073E6 !important;
+    font-weight: 600;
+    padding-bottom: 26px;
+    font-size: 14px;
+    border-radius:2px;
+    border-bottom: 3px solid #0073E6;
+}

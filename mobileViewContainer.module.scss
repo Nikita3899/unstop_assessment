@@ -1,0 +1,161 @@
+@import './bodyContainer.module.scss';
+@import './assessment.module.scss';
+
+.mobile-view-container{
+    position: relative;
+    background-color: #000;
+    z-index: 5;
+    width: 100%;
+    :global(.ant-tabs-tab-btn){
+        padding: 12px 60px !important;
+    }
+}
+
+.create-new-assessment{
+    position: absolute;
+}
+
+.side-menu-bar{
+    position: absolute;
+}
+
+.mobile-body{
+    background-color: #fff;
+    width: 28%;
+    margin: 0% 37%;
+}
+
+.mobile-header{
+    padding: 7px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.time{
+    color:#000000
+}
+
+.dashboard-header{
+    padding: 0px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.segment-background{
+    width: 30px;
+    height: 30px;
+    background-color: #F2F8FE;
+    border-radius: 60px;
+    padding: 10px;
+}
+
+.assessment-text{
+    color: var(--text-100, #1C4980);
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 140%;
+
+}
+.assess{
+    @extend .assessment-text;
+    padding-left: 10px;
+}
+
+.header-wrap{
+    display: flex;
+    align-items: center;
+    
+}
+
+.tabs-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #DADCE0;
+}
+
+.unstop-assessment{
+    @extend .assessment-text;
+    color:  #3E6493;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 12px 44px 15px 0px;
+
+}
+
+.body-container{
+    padding: 133px 15px 20px;
+    width: unset;
+    margin-left: unset;
+}
+
+.my-assessment{
+    @extend .assessment-text;
+    color:  #3E6493;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.wrap-icon{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.main-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icon-spacing{
+    padding: 0px 6px 0px;
+}
+
+.add-assessment-mobile{
+    @extend .add-assessment;
+    width: unset;
+}
+
+.assessment-container-mobile{
+    @extend .assessment-container;
+    flex-direction: column;
+}
+
+.add-assess-main-section-mobile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fixed-add-button{
+    border-radius: 50%;
+    background: var(--secondary-1, #0073E6);
+    padding: 9px;
+    position: fixed;
+    bottom: 20%;
+    left: 60%;
+}
+
+.my-assessments-header{
+    color:  #0073E6 !important;
+    font-weight: 600;
+    padding: 14px 44px;
+    font-size: 14px;
+    border-radius:2px;
+    border-bottom: 3px solid #0073E6;
+}
+
+.wrap-top-section{
+    position: fixed;
+    background: rgb(255, 255, 255);
+    width: 28%;
+}
+
+

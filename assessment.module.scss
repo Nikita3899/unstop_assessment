@@ -1,0 +1,108 @@
+.wrap-assessments{
+    border-radius: 12px;
+    padding: 20px 16px;
+    background: #FFF;
+    border: 1px solid  #DADCE0;
+    width: 28%;
+}
+
+.wrap-section{
+    display: flex;
+    justify-content:space-between;
+}
+
+.wrap-section-one{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.math-assessment{
+    color: #1C4980;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    padding-bottom: 3px;
+    font-weight: 500;
+    line-height: 140%;
+}
+
+.job{
+    @extend .math-assessment;
+    width: fit-content;
+    font-size: 14px;
+    font-weight: 600;
+    padding-right: 5px;
+    border-right: 1px solid #DADCE0;
+}
+
+.wrap-calender{
+    display: flex;  
+}
+
+.date{
+    color:  #8DA4BF;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    padding-left: 2px;
+}
+
+.dotted-line{
+    border-bottom: 1px dashed #DADCE0;
+    margin: 16px 0px ;
+}
+
+.durations{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.duration-value{
+    @extend .math-assessment;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.duration-text{
+    @extend .math-assessment;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.share{
+    @extend .math-assessment;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.wrap-share{
+    display: flex;
+    border-radius: 50px;
+    padding: 2px 8px 2px 6px;
+    border: 1px solid #1C4980;
+    background:  #FFF;
+    margin-right: 10px;
+}
+
+.people-added{
+    border: 1px solid  #FFF;
+    background: #6548EE;
+    padding: 5px 6px;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.wrap-assessments-mobile{
+    @extend .wrap-assessments;
+    width: 91%;
+    margin: 15px 0px 0px;
+}
